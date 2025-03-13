@@ -1,0 +1,75 @@
+.home-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  font-size: 5rem !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: rgb(251, 216, 167);
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  overflow: hidden;
+  font-weight: bold;
+  text-shadow: -2px -2px 0 rgb(211, 30, 30), 
+               2px -2px 0 rgb(171, 18, 18), 
+              -2px 2px 0 rgb(218, 17, 17), 
+               2px 2px 0 rgb(225, 12, 12);
+}
+
+/* Background GIF */
+.home-container::before {
+  content: "";
+  background: url("../assets/background.gif") no-repeat center center/cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  filter: brightness(80%);
+}
+
+/* Remove the unwanted box */
+
+.auth-box h1 {
+  font-size: 10rem !important; /* 50rem se realistic size */
+  font-weight: bold;
+  color: white;
+  display: block; /* Ensure full width */
+  white-space: nowrap; /* Prevent text wrapping */
+  overflow: visible; /* Allow text to grow */
+}
+
+/* Tagline */
+.tagline {
+  font-size: 2rem; /* Thoda aur bada kiya */
+  margin: 10px 0;
+  color: rgb(255, 223, 186);
+}
+
+
+/* Buttons Container */
+.btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Thoda gap beech me */
+  margin-top: 20px;
+}
+
+/* Buttons */
+.login-btn, .signup-btn {
+  background: linear-gradient(to right, #ea4e27, #ff6200);
+  color: white;
+  padding: 12px 24px;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.login-btn:hover, .signup-btn:hover {
+  background: linear-gradient(to right, #ff8c00, #ff6200);
+}
