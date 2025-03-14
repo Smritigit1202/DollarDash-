@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import api, { registerUser, loginUser, logoutUser, getUserProfile, addIncome, addExpense, getBillReminders, transferMoney } from './apiService';
 
 const IncomeTracker = () => {
   const [income, setIncome] = useState(0);

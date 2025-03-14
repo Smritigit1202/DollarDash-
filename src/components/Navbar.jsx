@@ -1,6 +1,7 @@
 import { Menu, X } from "lucide-react"; // Icons
 import React, { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
+import api, { registerUser, loginUser, logoutUser, getUserProfile, addIncome, addExpense, getBillReminders, transferMoney } from './apiService';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
