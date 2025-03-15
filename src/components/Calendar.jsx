@@ -32,8 +32,8 @@ const Expenses = () => {
   const avgDailyIncome = (totalIncome / new Date().getDate()).toFixed(2);
   const avgDailyExpense = (totalExpenses / new Date().getDate()).toFixed(2);
 
-  const lastMonthIncome = 30000; // Placeholder
-  const lastMonthExpense = 25000; // Placeholder
+  const lastMonthIncome = 0; // Placeholder
+  const lastMonthExpense = 0; // Placeholder
 
   const formatDate = (date) => date.toISOString().split("T")[0];
 
