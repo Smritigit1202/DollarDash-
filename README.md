@@ -76,7 +76,12 @@ DollarDash Budget Tracker is a **Django-based** personal finance application tha
 5. Start the Django development server:  
    ```sh
    python manage.py runserver  
-   ```  
+   ```
+
+
+## Outputs-
+[h.pdf](https://github.com/user-attachments/files/19262677/h.pdf)
+
 
 ## Tech Stack  
 - **Frontend:** React, Tailwind CSS  
