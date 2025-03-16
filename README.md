@@ -100,4 +100,4 @@ DollarDash Budget Tracker is a **Django-based** personal finance application tha
 - **Authentication:** Django Auth  
 
 ## Contributors  
-- ** Name** – Smriti Aggarwal
+- **Name** – Smriti Aggarwal
