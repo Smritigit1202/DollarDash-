@@ -33,14 +33,10 @@ DollarDash Budget Tracker is a **Django-based** personal finance application tha
    - Set **upcoming bill payment reminders**  
    - Bills are marked as **Pending** until paid  
    - Once paid, the status updates to **Paid**  
-   - API integration to directly **pay bills via Paytm**  
 
 6. **User Profile**  
    - Stores **Name, Email, Contact Number, and Account Information**  
-
-7. **Rewards System**  
-   - Earn **stars** for staying within budget  
-   - Collect **10 stars** to receive a **reward from the business**  
+ 
 
 ## Future Enhancements  
 - **AI-driven spending insights** for better financial planning  
