@@ -14,12 +14,8 @@ DollarDash Budget Tracker is a **Django-based** personal finance application tha
 ### Menu Options  
 
 1. **Income Management**  
-   - Add **new income** (Cash or Online)  
-   - Calculate **tax on income** using the formula:  
-     ```
-     Tax Amount = (Income * Tax Percentage) / 100
-     ```
-   - Users can manually input their **tax rate**  
+   - Add **new income**
+   - The method of earning income can be added
 
 2. **Expense Tracking**  
    - Log **spent money** (Cash or Online)  
